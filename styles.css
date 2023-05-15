@@ -957,7 +957,7 @@ label {
   }
   .left-side-desc {
     width: 90%;
-    height: max-content;
+    height: fit-content;
   }
   .right-side {
     width: 65%;
@@ -1009,8 +1009,6 @@ label {
     gap: 40px;
   }
   .left-half {
-    /* margin-top: 30px;
-    margin-left: 20px; */
     width: 90%;
     gap: 20px;
   }
@@ -1165,5 +1163,141 @@ label {
   .second-row {
     width: 90%;
     margin-left: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  /* First Section */
+  .first-section {
+    height: 1000px;
+  }
+  .right-leaf-img {
+    left: 50%;
+    top: 20px;
+  }
+  .target-location-input {
+    font-size: 16px;
+  }
+  .search-button span {
+    display: none;
+  }
+  .search-button {
+    width: 25%;
+    margin-left: -60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .h2-desc {
+    font-size: 18px;
+  }
+  .dish-img {
+    width: 90%;
+    height: fit-content;
+  }
+  .dish-rate-container {
+    width: 205px;
+    height: 90px;
+    margin-left: 90px;
+    margin-top: -330px;
+  }
+  
+  /* Second Section */
+  .bike-image {
+    margin-left: 7%;
+    margin-top: -50%;
+  }
+
+  /* Third Section */
+  .card {
+    width: 80%;
+  }
+  .card-title {
+    height: fit-content;
+    font-size: 20px;
+  }
+  .chef-container {
+    width: 125%;
+    height: fit-content;
+  }
+  .chef-inner-frame {
+    height: 250px;
+    gap: 5px;
+    margin-top: -190px;
+  }
+  .chef-title {
+    font-size: 16px;
+  }
+  .chef-desc {
+    font-size: 15px;
+  }
+  .get-started-button {
+    width: 160px;
+    height: 40px;
+  }
+  .get-started-text {
+    width: 70%;
+    height: fit-content;
+    font-size: 16px;
+  }
+  .contact-us-form-container {
+    width: 90%;
+  }
+  .form-title {
+    font-size: 28px;
+  }
+  
+  /* Fourth Section */
+  .fourth-section {
+    height: 850px;
+  }
+  .download-title {
+    width: 90%;
+    height: fit-content;
+    font-size: 28px;
+  }
+  .download-desc {
+    width: 90%;
+    height: fit-content;
+    font-size: 16px;
+  }
+  .download-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Fifth Section */
+  .fifth-section {
+    gap: 15px;
+  }
+  .top-side {
+    width: 90%;
+    height: fit-content;
+  }
+  .left-side {
+    height: fit-content;
+  }
+  .logo-container {
+    height: fit-content;
+  }
+  .right-side {
+    height: fit-content;
+  }
+  .first-row {
+    width: 95%;
+    gap: 15px;
+    margin-left: 0px;
+  }
+  .second-row {
+    width: 95%;
+    gap: 15px;
+    margin-left: 0px;
+  }
+  .first-row-title {
+    font-size: 16px;
+  }
+  .second-row-title {
+    font-size: 14px;
   }
 }
